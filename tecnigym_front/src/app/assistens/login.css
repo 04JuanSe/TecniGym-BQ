@@ -1,0 +1,63 @@
+/* === Estilos personalizados para la página de login === */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #212529; /* Fondo oscuro como el header */
+  padding: 2rem;
+}
+
+.login-box {
+  background: #ffffff; /* Fondo blanco del formulario */
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.login-title {
+  text-align: center;
+  color: #1E1E1E;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-group input {
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #CF2A2A; /* Rojo principal de tu sitio */
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #a72222; /* Rojo más oscuro al pasar el cursor */
+}
+
+.contenedorRegistro .Registro {
+    text-align: center;
+}

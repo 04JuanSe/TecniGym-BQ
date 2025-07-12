@@ -1,0 +1,66 @@
+/* [project]/src/app/assistens/login.css [app-client] (css) */
+.login-container {
+  background: #212529;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+}
+
+.login-box {
+  background: #fff;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 8px 20px #0003;
+}
+
+.login-title {
+  text-align: center;
+  color: #1e1e1e;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+  display: flex;
+}
+
+.form-group label {
+  color: #333;
+  margin-bottom: .5rem;
+  font-weight: 600;
+}
+
+.form-group input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: .7rem 1rem;
+  font-size: 1rem;
+}
+
+.btn-login {
+  color: #fff;
+  cursor: pointer;
+  background-color: #cf2a2a;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  padding: .75rem;
+  font-weight: bold;
+  transition: background-color .3s;
+}
+
+.btn-login:hover {
+  background-color: #a72222;
+}
+
+.contenedorRegistro .Registro {
+  text-align: center;
+}
+
+
+/*# sourceMappingURL=src_app_assistens_login_edf0f7b0.css.map*/

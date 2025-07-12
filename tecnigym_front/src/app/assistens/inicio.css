@@ -1,0 +1,147 @@
+/* Estilo general para la sección inicio */
+.inicio {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    padding: 80px 40px;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* 2 columnas para el contenido principal */
+.contenedor-inicio {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* columna izquierda*/
+.inicioIzquierdo {
+    flex: 1;
+    padding-right: 300px;
+}
+
+.inicioIzquierdo h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.inicioIzquierdo h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: red;
+
+}
+
+/*color*/
+.nombre {
+    color: #1e00ff;
+}
+
+.inicioIzquierdo p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #d1d1d1
+}
+
+/* botones*/
+.botones {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn-primario {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: red;
+    color: white;
+}
+
+.btn-primario:hover {
+    background-color: #cc0000;
+}
+
+.btn-secundario {
+    all: unset;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+    border: 2px solid #1100ff;
+
+}
+
+.btn-secundario:hover {
+    background-color: black;
+}
+
+/* Métricas (clientes, modelos, soporte) */
+
+.stats {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.stats h3 {
+    font-size: 2rem;
+    color: #1e00ff;
+}
+
+.stats p {
+    margin: 0;
+    color: #ccc;
+}
+
+/* Columna derecha: imagen del equipo */
+.inicioDerecho {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-responsiva {
+    width: 390px;
+    height: 410px;
+    background-color: #2a2a2a;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(13, 0, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    font-size: 1.1rem;
+}
+.imagenEquipo h4{
+    color: #ff0000;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-align: center;
+    
+}

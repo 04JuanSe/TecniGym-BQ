@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+.imagen {
+    width: 70px;
+    height: 60px;
+    background-color: #2a2a2a;
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgba(13, 0, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    font-size: 1rem;
+}
+
+/*  Estilo del encabezado (header) */
+header {
+    background-color: #1b1b1b;
+    /* Fondo negro oscuro */
+    color: white;
+    /* Texto blanco */
+    padding: 20px;
+    /* Espaciado interno alrededor del contenido */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    font-family: "Libertinus Mono", monospace;
+}
+
+/*  Barra de navegación */
+nav {
+    background-color: #040404;
+    /* Fondo gris oscuro */
+    color: white;
+    /* Color del texto */
+    padding: 10px;
+    /* Espaciado interior */
+    display: flex;
+    /* Usa flexbox para alinear los enlaces */
+    justify-content: center;
+    /* Centra los enlaces horizontalmente */
+    font-family: "Libertinus Mono", monospace;
+}
+
+/* Estilo de los enlaces dentro del nav */
+nav a {
+    color: white;
+    /* Enlaces en blanco */
+    margin: 0 15px;
+    /* Separación horizontal entre enlaces */
+    text-decoration: none;
+    /* Elimina el subrayado por defecto */
+}
+
+/* Texto descriptivo */
+.product p {
+    color: #555;
+    /* Texto en gris para lectura suave */
+}
+
+/* 🔻 Pie de página */
+footer {
+    background-color: #fff9f9;
+    /* Mismo color que el header para coherencia */
+    color: rgb(255, 255, 255);
+    /* Texto blanco */
+    text-align: center;
+    /* Centrado horizontal */
+    padding: 20px;
+    /* Espaciado interno */
+    font-family: "Libertinus Mono", monospace;
+}
+
+.informacion {
+    flex: 1;
+    min-height: 80vh;
+    background-color: #1b1b1b;
+    color: white;
+    padding: 40px 20px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-custom {
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    font-family: "Libertinus Mono", monospace;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow: hidden;
+}
+
+.card-custom:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    color: white;
+    font-family: "Libertinus Mono", monospace;
+    width: 100%;
+    height: 500px;
+    transition: all 0.3s ease;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas */
+    grid-template-rows: repeat(2, auto);
+    /* 2 filas automáticas */
+    max-width: 1200px;
+    margin: 0 auto;
+
+}

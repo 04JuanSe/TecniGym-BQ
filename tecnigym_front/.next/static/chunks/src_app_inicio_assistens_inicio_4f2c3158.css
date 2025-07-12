@@ -1,0 +1,44 @@
+/* [project]/src/app/inicio/assistens/inicio.css [app-client] (css) */
+.hero {
+  color: #fff;
+  text-align: center;
+  background-color: #1b1b1b;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-title {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.hero-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: .75rem 2rem;
+  font-size: 1rem;
+  transition: background-color .3s;
+}
+
+.hero-button:hover {
+  background-color: #0056b3;
+}
+
+
+/*# sourceMappingURL=src_app_inicio_assistens_inicio_4f2c3158.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/USER/OneDrive/Escritorio/TECNIGYM_BQ/tecnigym-bq/src/app/assistens/registro.css"],"sourcesContent":["form input {\r\n  border-radius: 8px;\r\n  padding: 12px;\r\n}\r\n\r\nform button {\r\n  border-radius: 8px;\r\n  font-weight: bold;\r\n}\r\n\r\nh1 {\r\n  font-size: 2.2rem;\r\n}"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;AAKA","debugId":null}}]
+}
