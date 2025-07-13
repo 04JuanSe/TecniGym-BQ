@@ -8,17 +8,23 @@ export default function Inicio() {
     const [nombreUsuario, setNombreUsuario] = useState("");
 
     useEffect(() => {
-        const nombre = localStorage.getItem("usuario");
-        if (nombre) {
-            setNombreUsuario(nombre);
+        const usuarioGuardado = localStorage.getItem("usuario");
+        if (usuarioGuardado) {
+            const usuario = JSON.parse(usuarioGuardado);
+            setNombreUsuario(usuario.nombre); // Accede correctamente al nombre
         }
     }, []);
+
+
+
 
     return (
         <section className="inicio">
             <div className="container-inicio">
                 <div className="inicioIzquierdo">{/* Columna izquierda: texto*/}
-                    <h1><span className="nombre">Bienvenido a TecniGym BQ</span></h1>
+                    <h1>
+                        <span className="nombre">👋 Hola, {nombreUsuario ? nombreUsuario : "Visitante" } <br />Bienvenido a TecniGym BQ</span>
+                    </h1>
                     <h2> Los mejores en nuestra área</h2>
                     <p>Equipamiento de última generación para gimnasios,
                         <br />centros deportivos y uso doméstico.
@@ -26,10 +32,10 @@ export default function Inicio() {
 
                     {/* Botones de acción */}
                     <div className="botones">
-                        <Link href="/" className="btn-primario">
+                        <Link href="../productos" className="btn-primario">
                             Ver Productos →
                         </Link>
-                        <Link href="/" className="btn-secundario">
+                        <Link href="../contactanos" className="btn-secundario">
                             Contáctanos →
                         </Link>
                     </div>
